@@ -1,0 +1,23 @@
+{
+  "name": "doc-generator-skill",
+  "owner": {
+    "name": "wkrabbit"
+  },
+  "metadata": {
+    "description": "通用代码库文档生成器 — 扫描代码目录并调用 AI 生成结构化项目文档",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "doc-generator",
+      "source": ".",
+      "description": "自动扫描代码目录，调用任意 OpenAI 兼容接口的大模型生成 GENERATED_DOC.md，包含项目概述、文件功能表和快速开始指南",
+      "version": "1.0.0",
+      "author": {
+        "name": "wkrabbit"
+      },
+      "keywords": ["documentation", "code-generator", "markdown", "ai", "openai", "claude-code"],
+      "strict": true
+    }
+  ]
+}

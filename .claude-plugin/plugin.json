@@ -1,0 +1,14 @@
+{
+  "name": "doc-generator",
+  "version": "1.0.0",
+  "description": "自动扫描代码目录，调用任意 OpenAI 兼容接口的大模型生成结构化项目文档",
+  "author": {
+    "name": "wkrabbit"
+  },
+  "homepage": "https://github.com/wkrabbit/doc-generator-skill",
+  "repository": "https://github.com/wkrabbit/doc-generator-skill",
+  "license": "MIT",
+  "keywords": ["documentation", "code-generator", "markdown", "ai", "openai-compatible", "claude-code"],
+  "skills": ["./skills/doc-generator/SKILL.md"],
+  "commands": ["./scripts/"]
+}
